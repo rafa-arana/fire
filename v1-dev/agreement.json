@@ -13,8 +13,8 @@
       "type": "string",
       "format": "date-time"
     },
-    "base_currency_code": {
-      "description": "Currency in accordance with ISO 4217. It should be consistent with minimum transfer amount and threshold.",
+    "currency_code": {
+      "description": "Base currency as defined in an ISDA CSA agreement in accordance with ISO 4217. It should be consistent with minimum transfer amount and threshold.",
       "$ref": "https://raw.githubusercontent.com/SuadeLabs/fire/master/v1-dev/common.json#/currency_code"
     },
     "country_code": {

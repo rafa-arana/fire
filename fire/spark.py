@@ -223,7 +223,7 @@ class FireModel:
         minimum = prp.get('minimum', None)
         maximum = prp.get('maximum', None)
         if minimum and maximum:
-            exp = "{{0}} IS NULL OR {{0}} IS BETWEEN {} AND {}".\
+            exp = "{{0}} IS NULL OR {{0}} BETWEEN {} AND {}".\
                 format(float(minimum), float(maximum))
             constraints.append(exp)
         elif minimum:
